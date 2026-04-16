@@ -1,7 +1,11 @@
 numpy
 pandas
-nltk
+nltk==3.8.1
 scikit-learn
+gensim
+matplotlib
 openpyxl
 pyLDAvis==3.4.1
+wordcloud
 lxml
+scipy
