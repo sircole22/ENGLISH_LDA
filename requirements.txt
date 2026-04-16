@@ -3,4 +3,5 @@ pandas
 nltk
 scikit-learn
 openpyxl
-lxm
+pyLDAvis==3.4.1
+lxml

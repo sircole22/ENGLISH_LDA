@@ -1,0 +1,24 @@
+LDA English 项目结果说明
+
+一、预处理结果
+data_no_chinese.xlsx	已去除含中文内容的原始文档
+Eng_cutted.xlsx	完成清洗、分词、词形还原后的英文文本
+
+二、特征筛选结果
+TF-IDF_Global_Top30.xlsx	TF-IDF 全局高权重词表，用于说明核心特征词
+
+三、LDA 建模结果
+LDA_主题关键词表.xlsx	每个主题的 Top 关键词，对应论文中的主题词表
+LDA_文档-主题分布表.xlsx	每篇文档在各主题上的概率分布
+LDA_文档主题分类结果.xlsx	每篇文档的主导主题分类结果
+LDA_模型评估曲线数据.xlsx	不同主题数下的评估数据，用于绘制模型选择曲线
+
+
+四、可视化结果
+LDA_困惑度曲线.png	困惑度随主题数变化的曲线图
+LDA_对数极大似然曲线.png	对数极大似然随主题数变化的曲线图
+LDA_全局词云.png	全局关键词词云图，用于展示高频核心词
+LDA_4主题_交互式可视化_修复版.html	pyLDAvis 交互式主题可视化页面
+
+五、补充文件
+top_words_export/top_300_words.xlsx	提取的 Top 300 词汇结果
